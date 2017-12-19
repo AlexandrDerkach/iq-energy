@@ -1621,56 +1621,68 @@
         left: -18px;
     }
     
-    .footer-lists {
-        display: -webkit-box;
-        display: -ms-flexbox;
-        display: flex;
-        -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-        justify-content: space-between;
-        -webkit-box-align: start;
-        -ms-flex-align: start;
-        align-items: flex-start;
-    }
-    
-    .footer-list {
-        position: relative;
-    }
-    
-    .footer-list:last-child:after {
-        display: block;
-        content: "";
-        height: 118px;
-        width: 1px;
-        background-color: #666666;
-        position: absolute;
-        top: -5px;
-        right: -18px;
-    }
-    
-    .footer-list li:not(:first-child) a {
-        color: #fff;
-        font-family: Ubuntu;
-        font-size: 12px;
-        font-weight: 400;
-        line-height: 18px;
-    }
-    
-    .title-li {
-        font-size: 14px;
-        font-weight: 700;
-        margin-bottom: 2px;
-        cursor: default;
-        pointer-events: none;
-    }
-    
-    .footer-list li a:hover {
-        text-decoration: underline;
-        color: #009a49;
-        -webkit-transition: 1s;
-        -o-transition: 1s;
-        transition: 1s;
-    }
+.footer-lists {
+ 	display: -webkit-box;
+ 	display: -ms-flexbox;
+ 	display: flex;
+ 	-webkit-box-pack: justify;
+ 	-ms-flex-pack: justify;
+ 	justify-content: flex-start;
+ 	-webkit-box-align: start;
+ 	-ms-flex-align: start;
+ 	align-items: flex-start;
+ }
+ 
+ .footer-list {
+ 	position: relative;
+ }
+ 
+ .footer-list:last-child:after {
+ 	display: block;
+ 	content: "";
+ 	height: 118px;
+ 	width: 1px;
+ 	background-color: #666666;
+ 	position: absolute;
+ 	top: -5px;
+ 	right: -18px;
+ }
+ 
+ .footer-list li:not(:first-child) a {
+ 	color: #fff;
+ 	font-family: Ubuntu;
+ 	font-size: 12px;
+ 	font-weight: 400;
+ 	line-height: 18px;
+ }
+ 
+ .title-li {
+ 	font-size: 14px;
+ 	font-weight: 700;
+ 	margin-bottom: 2px;
+ 	cursor: default;
+ 	pointer-events: none;
+ }
+ 
+ .footer-list li a:hover {
+ 	text-decoration: underline;
+ 	color: #009a49;
+ 	-webkit-transition: 1s;
+ 	-o-transition: 1s;
+ 	transition: 1s;
+ }
+
+.company-list{
+	margin-right: 91px;
+}
+
+.services-list{
+	margin-right: 82px;
+}
+
+.intenet-shop-list{
+	margin-right: 82px;
+}
 .thank-you{
     text-align: center;
     padding: 104px 0 132px;
